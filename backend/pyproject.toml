@@ -1,0 +1,11 @@
+[project]
+name = "astra-q-backend"
+version = "0.1.0"
+description = "ASTRA-Q: AI-Assisted Reliability Screening & Investigation Workstation"
+requires-python = ">=3.10"
+
+[project.scripts]
+astraq = "main:app"
+
+[tool.setuptools]
+packages = ["engines", "models", "api"]
